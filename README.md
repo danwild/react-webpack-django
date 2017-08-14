@@ -1,6 +1,6 @@
-# resty-react-django
+# react-webpack-django
 
-Fullstack application scaffold. 
+Full-stack application scaffold. 
 Structured to provide [much needed decoupling](http://owaislone.org/blog/modern-frontends-with-django/) between the 
 client application build and Django's opinionated pipeline/staticfiles systems. Achieved by using a Webpack bundle.
 

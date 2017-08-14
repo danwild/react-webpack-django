@@ -61,7 +61,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'restyReactDjango.urls'
+ROOT_URLCONF = 'react_webpack_django.urls'
 
 TEMPLATES = [
     {
@@ -79,7 +79,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'restyReactDjango.wsgi.application'
+WSGI_APPLICATION = 'react_webpack_django.wsgi.application'
 
 
 # Database

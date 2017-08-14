@@ -1,5 +1,5 @@
 {
-	"name": "react-django-client",
+	"name": "react-webpack-django",
 	"version": "0.0.1",
 	"description": "",
 	"main": "index.js",
@@ -10,14 +10,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/danwild/react-django-client.git"
+		"url": "git+https://github.com/danwild/react-webpack-django.git"
 	},
 	"author": "",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/danwild/react-django-client/issues"
+		"url": "https://github.com/danwild/react-webpack-django/issues"
 	},
-	"homepage": "https://github.com/danwild/react-django-client#readme",
+	"homepage": "https://github.com/danwild/react-webpack-django#readme",
 	"devDependencies": {
 		"babel": "^6.23.0",
 		"babel-core": "^6.25.0",
