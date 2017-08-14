@@ -1,5 +1,5 @@
 .idea
-venv
+venv/*
 
 # Logs
 logs
