@@ -4,7 +4,7 @@ Fullstack application scaffold.
 Structured to provide [much needed decoupling](http://owaislone.org/blog/modern-frontends-with-django/) between the 
 client application build and Django's opinionated pipeline/staticfiles systems. Achieved by using a Webpack bundle.
 
-In short, we'll let Django do what it is good at - server side, while de-coupling the client for greater flexibility (and less black-box Django magic!)
+In short, we'll let Django do what it is good at; Server-side/ORM stuff, while de-coupling the client for greater flexibility (and less confusing black-box Django magic!)
 
 Largely based on these resources:
 * [Let's modernize the way we handle frontend code with Django](http://owaislone.org/blog/modern-frontends-with-django/)
@@ -19,6 +19,6 @@ Largely based on these resources:
 * Client/Server request auth.
 
 ## webpack
-Make a bundle: `./node_modules/.bin/webpack --config webpack.config.js`
+Make a bundle: `npm run build`
 
-Make, watch: `./node_modules/.bin/webpack --config webpack.config.js --watch`
+Make, watch: `npm run watch`
