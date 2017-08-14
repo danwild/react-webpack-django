@@ -22,11 +22,11 @@ Largely based on these resources:
 
 From project root:
 ```shell
-\# javascript things
+# javascript things
 npm install                         # install js packages
 npm run watch                       # run webpack build for client app, and rebuild on change*
 
-\# python things
+# python things
 virtualenv venv                     # create python virtualenv
 source venv/bin/activate            # enter venv
 pip install -r requirements.txt     # install pip packages
@@ -35,7 +35,5 @@ python manage.py runserver          # serve
 
 \*to just build a webpack bundle once use: `npm run build` 
 
-
-Make a bundle: `npm run build`
-
-Make, watch: `npm run watch`
+## License
+MIT License
