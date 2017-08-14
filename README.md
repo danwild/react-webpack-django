@@ -1,7 +1,8 @@
 # resty-react-django
 
-An example app, structured to enforce [much needed decoupling](http://owaislone.org/blog/modern-frontends-with-django/) of 
-client application build from Django's opinionated pipeline/staticfiles etc. using Webpack bundle.
+Fullstack application scaffold. 
+Structured to provide [much needed decoupling](http://owaislone.org/blog/modern-frontends-with-django/) between the 
+client application build and Django's opinionated pipeline/staticfiles systems. Achieved by using a Webpack bundle.
 
 In short, we'll let Django do what it is good at - server side, while de-coupling the client for greater flexibility (and less black-box Django magic!)
 
@@ -13,6 +14,9 @@ Largely based on these resources:
 * [Moving to Webpack v2](https://javascriptplayground.com/blog/2016/10/moving-to-webpack-2/) (notes still useful, many example use v1)
 
 
+## todo
+* Routing, React?
+* Client/Server request auth.
 
 ## webpack
 Make a bundle: `./node_modules/.bin/webpack --config webpack.config.js`
