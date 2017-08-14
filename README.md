@@ -16,4 +16,5 @@ Largely based on these resources:
 
 ## webpack
 Make a bundle: `./node_modules/.bin/webpack --config webpack.config.js`
+
 Make, watch: `./node_modules/.bin/webpack --config webpack.config.js --watch`
