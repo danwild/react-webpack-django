@@ -6,8 +6,12 @@ client application build and Django's opinionated pipeline/staticfiles systems. 
 
 In short, we'll let Django do what it is good at; Server-side/ORM stuff, while de-coupling the client for greater flexibility (and less confusing black-box Django magic!)
 
+## routing notes
+* Routing (e.g. `/`, `/about`) has been configured using `react-router-dom`.
+* In our Django apps `urls.py` we have defined a catchall which essentially defers routing to React.
+* There is also an example url configured to allow django to serve a route template (depending on your use case you may want a mix of both approaches).
+
 ## todo
-* Routing, React?
 * Client/Server request auth.
 
 ## install, build, run etc.
@@ -16,7 +20,7 @@ From project root:
 ```shell
 # javascript things
 npm install                         # install js packages
-npm run watch                       # run webpack build for client app, and rebuild on change*
+npm run watch                       # run webpack build for client app, and rebuild on \*change
 
 # python things
 virtualenv venv                     # create python virtualenv

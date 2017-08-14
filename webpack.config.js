@@ -5,7 +5,7 @@ var BundleTracker = require('webpack-bundle-tracker');
 module.exports = {
 	context: __dirname,
 
-	entry: './assets/js/index.js', // entry point of our app. assets/js/index.js should require other js modules and dependencies it needs
+	entry: './assets/client/js/index.jsx', // entry point of our app. assets/client/js/index.jsx should require other js modules and dependencies it needs
 
 	output: {
 		path: path.resolve('./assets/bundles/'),
