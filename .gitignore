@@ -1,6 +1,6 @@
 .idea
 venv/*
-
+db.sqlite3
 
 # Logs
 logs
