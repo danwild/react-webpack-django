@@ -2,7 +2,11 @@
 
 Full-stack application scaffold. 
 Structured to provide [much needed decoupling](http://owaislone.org/blog/modern-frontends-with-django/) between the 
-client application build and Django's opinionated pipeline/staticfiles systems. Achieved by using a Webpack bundle.
+client application build and Django's opinionated pipeline/staticfiles systems. 
+
+Achieved by using [webpack](https://webpack.js.org/) to manage our client bundling, with these tools:
+* [webpack-bundle-tracker](https://github.com/owais/webpack-bundle-tracker)
+* [django-webpack-loader](https://github.com/owais/django-webpack-loader/)
 
 In short, we'll let Django do what it is good at; Server-side/ORM stuff, while de-coupling the client for greater flexibility (and less confusing black-box Django magic!)
 
