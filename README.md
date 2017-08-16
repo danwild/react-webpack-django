@@ -15,6 +15,10 @@ In short, we'll let Django do what it is good at; Server-side/ORM stuff, while d
 * In our Django apps `urls.py` we have defined a catchall which essentially defers routing to React.
 * There is also an example url configured to allow django to serve a route template (depending on your use case you may want a mix of both approaches).
 
+## styling
+* Bootstrap v4 Alpha with [reactstrap](https://reactstrap.github.io/) for UI components has been added
+* [less-loader](https://github.com/webpack-contrib/less-loader) has been configured to transpile/bundle less files.
+
 ## todo
 * Client/Server request auth.
 

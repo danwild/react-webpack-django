@@ -5,7 +5,7 @@ var BundleTracker = require('webpack-bundle-tracker');
 module.exports = {
 	context: __dirname,
 
-	entry: './assets/client/js/index.jsx', // entry point of our app. assets/client/js/index.jsx should require other js modules and dependencies it needs
+	entry: './assets/client/src/app.jsx', // entry point of our app.
 
 	output: {
 		path: path.resolve('./assets/bundles/'),
@@ -13,11 +13,13 @@ module.exports = {
 	},
 
 	plugins: [
-		new BundleTracker({filename: './webpack-stats.json'})
+		new BundleTracker({
+			filename: './webpack-stats.json'
+		})
 	],
 
 	module: {
-		loaders: [
+		rules: [
 			{
 				test: /\.jsx?$/,  // to transform JSX into JS
 				exclude: /node_modules/,
@@ -25,6 +27,19 @@ module.exports = {
 				query  :{
 					presets:['react','es2015']
 				}
+			},
+			{
+				test: /\.less$/,
+				use: [{
+					loader: "style-loader"
+				}, {
+					loader: "css-loader"
+				}, {
+					loader: "less-loader", options: {
+						strictMath: true,
+						noIeCompat: true
+					}
+				}]
 			}
 		]
 	},
