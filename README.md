@@ -18,6 +18,7 @@ In short, we'll let Django do what it is good at; Server-side/ORM stuff, while d
 ## styling
 * Bootstrap v4 Alpha with [reactstrap](https://reactstrap.github.io/) for UI components has been added
 * [less-loader](https://github.com/webpack-contrib/less-loader) has been configured to transpile/bundle less files.
+* Uses [Bootswatch Flatly 4 Alpha](https://bootswatch.com/4-alpha/flatly/) theme
 
 ## todo
 * Client/Server request auth.
