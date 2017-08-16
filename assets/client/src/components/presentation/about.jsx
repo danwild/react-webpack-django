@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../app.less';
+import '../../app.less';
 import { UncontrolledAlert } from 'reactstrap';
 
 export default class About extends Component {

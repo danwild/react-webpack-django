@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-import Home from './presentation/home.jsx';
-import About from './presentation/about.jsx';
+import Home from './components/presentation/home.jsx';
+import About from './components/presentation/about.jsx';
 
 // routes
 ReactDOM.render(

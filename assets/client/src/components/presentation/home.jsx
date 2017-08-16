@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Alert } from 'reactstrap';
-import '../app.less';
+import '../../app.less';
 
 export default class Home extends Component {
 	render(){
