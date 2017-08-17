@@ -27,6 +27,9 @@
     "babel-preset-react": "^6.24.1",
     "bootstrap": "^4.0.0-beta",
     "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "font-awesome": "^4.7.0",
     "less": "^2.7.2",
     "less-loader": "^4.0.5",
     "react": "^15.6.1",
@@ -36,6 +39,7 @@
     "react-router-dom": "^4.1.2",
     "reactstrap": "^4.8.0",
     "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
     "webpack": "^3.5.4",
     "webpack-bundle-tracker": "^0.2.0"
   }

@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import '../../app.less';
+import React from 'react';
+import '../App.less';
 import { UncontrolledAlert } from 'reactstrap';
 
-export default class About extends Component {
+export default class About extends React.Component {
 	render(){
 		return (
 			<div>
