@@ -24,7 +24,7 @@ export default class LoginSelect extends React.Component {
 				<span className="label">Logged in as:</span>
 				<ButtonDropdown isOpen={this.state.dropdownOpen} toggle={this.toggle} className="btn-info">
 					<DropdownToggle caret>
-						Daniel.Wild@csiro.au
+						danwild@y7mail.com
 					</DropdownToggle>
 					<DropdownMenu>
 						<DropdownItem>Settings <Icon name="cog" /></DropdownItem>
